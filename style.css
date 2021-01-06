@@ -51,7 +51,7 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
-    height: 145%;
+    height: 150%;
     width: 26%;
   
 }
@@ -90,9 +90,9 @@ section{
     height: 50px;
 }
 .container btn{
-    position: absolute;
+    position: relative;
     top: 10%;
-    left: 10%;
+    left: 5%;
     transform: translate(-50%, -50%);
     background-color: brown;
     color: beige;
@@ -100,6 +100,19 @@ section{
     padding: 8px 10px;
     border: none;
 }
+.container text{
+    text-align: justify;
+    top: 50px;
+}
+
+.centered {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    bottom: 120%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  }
   
 footer p{
     text-align: center;
